@@ -1,0 +1,17 @@
+{
+  "name": "llm-guardrails-gateway",
+  "version": "1.0.0",
+  "description": "A middleware layer that sits between the user and any LLM, enforcing safety, compliance, and output structure rules.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node src/tests/run_tests.js",
+    "demo": "node examples/demo.js"
+  },
+  "keywords": ["llm", "guardrails", "middleware", "safety", "compliance"],
+  "author": "LLM Guardrails Gateway",
+  "license": "MIT",
+  "dependencies": {
+    "js-yaml": "^4.1.0"
+  }
+}
