@@ -85,7 +85,3 @@ npm test
 ```
 
 Tests use the built-in mock provider and require no API keys.
-
-## License
-
-MIT
